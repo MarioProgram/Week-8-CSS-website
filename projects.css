@@ -1,0 +1,54 @@
+h1 {
+ margin: 20px;
+}
+
+.dnd p{
+    background-color: #88C2CE;
+    font-size: 25px;
+}
+
+.dnd p:nth-child(1) {
+    font-weight: 700;
+}
+
+
+
+.budget p{
+    background-color: #88C2CE;
+    font-size: 25px;
+}
+
+.budget p:nth-child(1) {
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+
+.war p{
+    background-color: #88C2CE;
+    font-size: 25px;
+}
+
+.war p:nth-child(1) {
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+a button {
+    background-color: #10100F;
+    color: #F4F9FC;
+    border-left: 10px;
+    border-right: 10px;
+    border: 5px solid #10100F;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: #F4F9FC;
+    color: #10100F;
+}

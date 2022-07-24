@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #D6DFE8 ;
+  }
+body {
+    text-align: center;
+    font-family: Poppins;
+}
+
+
+.contacts {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #88C2CE;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.inner {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background: local;
+
+
+}
+
+.style {
+    height: 100%;
+    display: table;
+    float: left;
+    color: #F4F9FC;
+    
+}
+
+.style h2 {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #88C2CE;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #10100F;
+    padding-left: 100px;
+    
+
+}
+
+
+.style h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #88C2CE;
+    font-family: Poppins;
+    font-size: 50px;
+    
+}
+.nav {
+    float: right;
+    height: 100%;
+    background: inherit;
+    
+}
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 10px;
+    background: inherit;
+    text-decoration: none;
+    
+}
+.nav a li {
+    background: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #626461;
+    width: 200px;
+    font-weight: 600;
+}
+.about {
+    font-family: Poppins;
+    text-align: inherit;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+
+.intro {
+    font-size: 23px;
+    line-height: 50px;
+    width: 100%;
+
+}
+
+.title {
+    font-size: 25px;
+    line-height: 100px;
+    text-align: center;
+    width: 100%;
+    
+    
+    
+}
+
+.name {
+    text-align: center;
+    margin-left: 30px;
+    font-size: 250%;
+    font-family: Roboto Condensed;
+    font-weight: 450;
+    color: #10100F;
+    word-spacing: 15px;
+    margin-top: 50px;
+}
+
+.introduction a p{
+    text-align: center;
+    font-size: 150%;
+    background-color: #88C2CE;
+    font-family: Poppins;
+    font-stretch: extra-expanded;
+    display: flex;
+    justify-content: center;
+    border: 8px solid #626461;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.about img {
+    border-radius: 100%;
+    border: 20px solid #626461;
+    margin-top: 10px;
+    justify-content: inherit;
+}
+.me {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px; 
+    font-weight: 700;
+    
+}
